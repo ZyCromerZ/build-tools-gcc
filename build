@@ -246,7 +246,8 @@ function parse_parameters() {
             "gnu:8") GCC=gcc-8-branch ;;
             "gnu:9") GCC=gcc-9-branch ;;
             "gnu:10") GCC=releases/gcc-10 ;;
-            "gnu:11") GCC=master ;;
+            "gnu:11") GCC=releases/gcc-11 ;;
+            "gnu:12") GCC=master ;;
             "linaro:4") GCC=linaro-local/releases/linaro-4.9-2017.01
                         GLIBC="glibc-2.27"
                         ISL="isl-0.17.1" ;;
